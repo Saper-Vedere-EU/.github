@@ -21,10 +21,11 @@ body:
       label: DEVELOPMENT Deploy Steps
       description: List all steps necessary to successfully deploy on Developement.
       value: |
-        ### Env file changes
-        - []
-        ### Deploy Steps
-        - []
+        ### DEVELOPMENT Deploy Steps
+        - [ ] update developemnt .env file for `SOME_VALUE`
+        - [ ] merge PR {link to PR} 
+        - [ ] migrate database with `python migrations/migrate.py`
+        - [ ] close sub-issue
     validations:
       required: true
 
@@ -32,11 +33,12 @@ body:
     id: deployment-steps-production
     attributes:
       label: PRODUCTION Deploy Steps
-      description: List all steps necessary to successfully deploy on Production.
+      description: List all steps necessary to successfully deploy on Production. 
       value: |
-        ### Env file changes
-        - []
-        ### Deploy Steps
-        - []
+        ### PRODUCTION Deploy Steps
+        - [ ] update production .env file for `SOME_VALUE`
+        - [ ] merge PR {link to PR} 
+        - [ ] migrate database with `python migrations/migrate.py`
+        - [ ] close sub-issue
     validations:
       required: true

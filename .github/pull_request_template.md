@@ -6,4 +6,4 @@ Link to issue: (add Issue/Subisssue URL here)
 <!-- Give the reviewer(s) some context about the changes or the feature. -->
 
 # Testing notes
-<!-- Let the reviewers know how to tests the changes, if applicable. -->
+<!-- Let the reviewer(s) know how to tests the changes, if applicable. -->

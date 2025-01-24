@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Custom Issue Template
+    url: https://github.com/Saper-Vedere-EU/.github/issues/new/choose
+    about: Use one of our custom templates to create an issue.

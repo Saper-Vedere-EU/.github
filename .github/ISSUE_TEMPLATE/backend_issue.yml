@@ -1,7 +1,6 @@
 name: Backend Issue
 description: Fill in a Backend Issue
 title: "[Issue]: <Untitled>"
-labels: ["documentation", "issue"]
 team: "back"
 projects: ["Saper-Vedere-EU/2"]
 body:

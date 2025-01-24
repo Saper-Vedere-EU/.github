@@ -27,6 +27,8 @@ body:
         - []
         ### Deploy Steps
         - []
+    validations:
+      required: true
 
   - type: textarea
     id: deployment-steps-production
@@ -38,3 +40,5 @@ body:
         - []
         ### Deploy Steps
         - []
+    validations:
+      required: true

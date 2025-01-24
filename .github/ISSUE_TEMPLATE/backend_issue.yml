@@ -18,7 +18,7 @@ body:
   - type: textarea
     id: deployment-steps-developement
     attributes:
-      label: Deployment Steps
+      label: DEVELOPMENT Deploy Steps
       description: List all steps necessary to successfully deploy on Developement.
       value: |
         ### Env file changes
@@ -31,7 +31,7 @@ body:
   - type: textarea
     id: deployment-steps-production
     attributes:
-      label: Deployment Steps
+      label: PRODUCTION Deploy Steps
       description: List all steps necessary to successfully deploy on Production.
       value: |
         ### Env file changes

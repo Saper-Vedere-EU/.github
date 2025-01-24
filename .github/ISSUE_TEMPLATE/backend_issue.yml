@@ -1,7 +1,6 @@
 name: Backend Issue
 description: Fill in a Backend Issue
 title: "<Untitled>"
-team: "Back"
 projects: ["Saper-Vedere-EU/2"]
 body:
   - type: textarea
@@ -9,33 +8,35 @@ body:
     attributes:
       label: Context
       description: Briefly explain what this issue/task is aiming to achieve. 
+    validations:
+      required: true
 
-  # - type: markdown
-  #   attributes:
-  #     value: "---"
+  - type: markdown
+    attributes:
+      value: "---"
 
-  # - type: textarea
-  #   id: deployment-steps-developement
-  #   attributes:
-  #     label: Deployment Steps
-  #     description: List all steps necessary to successfully deploy on Developement.
-  #     value: |
-  #       ### Env file changes
-  #       - []
-  #       ### Deploy Steps
-  #       - []
-  #   validations:
-  #     required: true
+  - type: textarea
+    id: deployment-steps-developement
+    attributes:
+      label: Deployment Steps
+      description: List all steps necessary to successfully deploy on Developement.
+      value: |
+        ### Env file changes
+        - []
+        ### Deploy Steps
+        - []
+    validations:
+      required: true
 
-  # - type: textarea
-  #   id: deployment-steps-production
-  #   attributes:
-  #     label: Deployment Steps
-  #     description: List all steps necessary to successfully deploy on Production.
-  #     value: |
-  #       ### Env file changes
-  #       - []
-  #       ### Deploy Steps
-  #       - []
-  #   validations:
-  #     required: true
+  - type: textarea
+    id: deployment-steps-production
+    attributes:
+      label: Deployment Steps
+      description: List all steps necessary to successfully deploy on Production.
+      value: |
+        ### Env file changes
+        - []
+        ### Deploy Steps
+        - []
+    validations:
+      required: true

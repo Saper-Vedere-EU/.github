@@ -1,8 +1,8 @@
 name: Backend Issue
 description: Fill in a Backend Issue
 title: "<Untitled>"
-projects: ["Saper-Vedere-EU/2"]
 type: "Backend"
+projects: ["Saper-Vedere-EU/2"]
 body:
   - type: textarea
     id: context

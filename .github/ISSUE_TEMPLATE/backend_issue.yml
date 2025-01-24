@@ -19,8 +19,7 @@ body:
     id: deployment-steps-developement
     attributes:
       label: DEVELOPMENT Deploy Steps
-      description: List all steps necessary to successfully deploy on Developement. This should be updated as you progress through the issue.
-      This includes updating an .env file, migrating some databases, applying a script, merging some PR and in which order.
+      description: List all steps necessary to successfully deploy on Developement. This should be updated as you progress through the issue. This includes updating an .env file, migrating some databases, applying a script, merging some PR and in which order.
       value: |
         - [ ] update developemnt .env file for `SOME_VALUE`
         - [ ] merge PR {link to PR} 
@@ -33,9 +32,8 @@ body:
     id: deployment-steps-production
     attributes:
       label: PRODUCTION Deploy Steps
-      description: List all steps necessary to successfully deploy on Production. This should be updated as you progress through the issue.
-      This includes updating an .env file, migrating some databases, applying a script, merging some PR and in which order.
-      value: |
+      description: List all steps necessary to successfully deploy on Production. This should be updated as you progress through the issue. This includes updating an .env file, migrating some databases, applying a script, merging some PR and in which order.
+      placeholder: |
         - [ ] update production .env file for `SOME_VALUE`
         - [ ] merge PR {link to PR} 
         - [ ] migrate database with `python migrations/migrate.py`

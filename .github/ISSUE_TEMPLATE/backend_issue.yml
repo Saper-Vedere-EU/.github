@@ -38,5 +38,7 @@ body:
         - [ ] merge PR {link to PR} 
         - [ ] migrate database with `python migrations/migrate.py`
         - [ ] close sub-issue
+      value: |
+        - [ ]
     validations:
       required: true

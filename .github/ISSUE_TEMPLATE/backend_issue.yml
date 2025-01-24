@@ -1,7 +1,7 @@
 name: Backend Issue
 description: Fill in a Backend Issue
 title: "<Untitled>"
-# team: "back"
+team: "Back"
 projects: ["Saper-Vedere-EU/2"]
 body:
   - type: textarea

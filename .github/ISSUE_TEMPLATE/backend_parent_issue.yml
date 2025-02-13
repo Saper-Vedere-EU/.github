@@ -12,3 +12,13 @@ body:
       description: Briefly explain what this issue/task is aiming to achieve. 
     validations:
       required: true
+
+  - type: textarea
+    id: completion-steps
+    attributes:
+      label: COMPLETION Steps
+      description: List all steps necessary to consider this issue completed. This will generally be as simple as ensure all sub-issues are closed and deployed to production. But if something extra needs to be done, list it here.
+      value: |
+        - [ ] all sub-issues are closed and deployed.
+    validations:
+      required: true

@@ -12,7 +12,3 @@ body:
       description: Briefly explain what this issue/task is aiming to achieve. 
     validations:
       required: true
-
-  - type: markdown
-    attributes:
-      value: "---"

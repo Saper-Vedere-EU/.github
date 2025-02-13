@@ -1,0 +1,17 @@
+name: Backend Issue
+description: Fill in a Backend Parent Issue
+title: "<Untitled Parent Issue>"
+type: "Backend"
+projects: ["Saper-Vedere-EU/2"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Briefly explain what this issue/task is aiming to achieve. 
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "---"

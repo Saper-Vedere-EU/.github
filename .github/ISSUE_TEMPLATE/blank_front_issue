@@ -1,0 +1,17 @@
+name: Front-end Issue
+description: Fill in a front Issue
+title: "[Front-end]"
+type: "Frontend"
+projects: ["Saper-Vedere-EU/29"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Briefly explain what this issue/task is aiming to achieve. 
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
